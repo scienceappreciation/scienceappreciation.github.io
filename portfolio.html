@@ -12,41 +12,42 @@
   <body>
     <header>
       <!-- Main Navigation -->
-      <nav>
-        <menu>
+      <nav class="mui-panel">
+        <menu class="links">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="./timeline.html">Timeline</a></li>
           <li><a href="./contact.html">Contact</a></li>
+        </menu>
+        <menu class="icons">
           <li>
             <a href="https://linkedin.com/in/cole-hale">
-              <img src="./resources/images/linkedin-svgrepo-com.svg" alt="LinkedIn">
+              <img src="./resources/images/linkedin-svgrepo-com.svg" alt="LinkedIn" class="icon-small">
             </a>
           </li>
           <li>
             <a href="https://github.com/scienceappreciation/scienceappreciation.github.io">
-              <img src="./resources/images/github-142-svgrepo-com.svg" alt="GitHub">
+              <img src="./resources/images/github-142-svgrepo-com.svg" alt="GitHub" class="icon-small">
             </a>
           </li>
         </menu>
       </nav>
       <!-- Page Title -->
-      <div role="presentation">
+      <div role="presentation" class="mui-container">
         <h1>Portfolio</h1>
       </div>
     </header>
 
     <main>
-        <section>
+        <section class="mui-container">
           <h2>Websites I've Done</h2>
-          <p>Below are websites I've done that are in production. Some of them include source code snippets with mild obfuscation for security reasons.</p>
-          <a href="./contact.html" target="_blank">Get References</a>
+          <p>Below are websites I've done that are in production. Some of them may only include source code snippets with mild obfuscation for security reasons.</p>
+          <a href="./contact.html" target="_blank" class="mui-btn mui-btn--primary mui-btn--small">Get References</a>
 
-          <div role="presentation">
-            <div>
-              <img src="#" alt="Screenshot">
-              <button>Source Snippets</button>
-              <a href="https://github.com/scienceappreciation/scienceappreciation.github.io">View on Github</a>
+          <div role="presentation" id="website-grid">
+            <div class="mui-panel" >
+              <img src="./resources/images/portfolio-screenshot.png" alt="Screenshot">
+              <a href="https://github.com/scienceappreciation/scienceappreciation.github.io" class="mui-btn github">View on Github</a>
             </div>
           </div>
         </section>

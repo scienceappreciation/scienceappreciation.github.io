@@ -124,3 +124,26 @@ footer {
 i {
     color: #666;
 }
+
+.github {
+    background-color: #24292F;
+    color: white;
+    display: block;
+}
+
+#website-grid {
+    display: grid;
+    width: 33%;
+    height: auto;
+}
+
+#website-grid img {
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+
+#website-grid img:hover {
+    width: 175%;
+}
