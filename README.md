@@ -155,6 +155,7 @@ Project Link: [https://github.com/scienceappreciation/scienceappreciation.github
 ## Acknowledgments
 
 * [Codecademy](https://www.codecademy.com)
+* [othneildrew](https://github.com/othneildrew/Best-README-Template/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
