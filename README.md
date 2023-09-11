@@ -31,7 +31,7 @@
     A Digital Resume showcasing websites and projects I've done while simultaneously showcasing my skills in Web Development.
     <br />
     <br />
-    <a href="https://github.com/scienceappreciation/scienceappreciation.github.io">View</a>
+    <a href="https://scienceappreciation.github.io">View</a>
     ·
     <a href="https://github.com/scienceappreciation/scienceappreciation.github.io/issues">Report Bug</a>
     ·
