@@ -109,3 +109,18 @@ footer {
     text-align: center;
     margin-top: 1rem;
 }
+
+.tag {
+    padding: 0.25rem 0.5rem;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0.25rem;
+}
+
+i {
+    color: #666;
+}
