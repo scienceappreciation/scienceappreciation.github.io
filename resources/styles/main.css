@@ -1,13 +1,7 @@
+/* Universal Styles */
 header .icon-small {
     width: 1.625rem;
     height: 1.625rem;
-}
-
-#skills div .icon-small {
-    width: 1rem;
-    height: 1rem;
-    margin-top: 0.25rem;
-    margin-left: 0.25rem;
 }
 
 nav {
@@ -43,6 +37,24 @@ nav .icons {
 nav .icons li {
     display: inline;
 }
+
+footer {
+    border-top: 0.1rem solid #CCC;
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Home Page */
+
+#skills div .icon-small {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+
 
 #skills ul {
     list-style-type: none;
@@ -102,13 +114,7 @@ nav .icons li {
     font-size: 0.8125rem;
 }
 
-footer {
-    border-top: 0.1rem solid #CCC;
-    width: 100%;
-    padding: 1.5rem;
-    text-align: center;
-    margin-top: 1rem;
-}
+/* Contact Page */
 
 .tag {
     padding: 0.25rem 0.5rem;
@@ -124,6 +130,8 @@ footer {
 i {
     color: #666;
 }
+
+/* Portfolio Page */
 
 .github {
     background-color: #24292F;
