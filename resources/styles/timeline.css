@@ -44,3 +44,15 @@
 main section {
     overflow: scroll;
 }
+
+/* Responsive Designs */
+@media only screen and (max-width: 375px) {
+    .active p {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    .active h2 {
+        text-align: left;
+    }
+}

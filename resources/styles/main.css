@@ -46,6 +46,44 @@ footer {
     margin-top: 1rem;
 }
 
+/* Responsive Designs: Universal */
+@media only screen and (max-width: 640px) {
+    nav menu .current {
+        display: none;
+    }
+
+    .links li {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    nav menu {
+        padding: 0;
+    }
+    .links li a {
+        font-size: 1.1rem;
+    }
+
+    footer a {
+        display: none;
+    }
+
+    footer {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 381px) {
+    .links li {
+        float: left;
+    }
+
+    nav .icons {
+        display: none;
+    }
+}
+
 /* Contact Page */
 
 .tag {
@@ -86,4 +124,19 @@ i {
 
 #website-grid img:hover {
     width: 175%;
+}
+
+/* Responsive Designs: Portfolio */
+@media only screen and (max-width: 495px) {
+    #website-grid {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+    }
+
+    #website-grid div {
+        width: 100%;
+        height: auto;
+    }
 }

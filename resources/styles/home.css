@@ -63,3 +63,21 @@
 .skill-container .mui-btn {
     font-size: 0.8125rem;
 }
+
+/* Responsive Designs */
+@media only screen and (max-width: 640px) {
+    .skill-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #skills ul li {
+        display: inline-block;
+        margin: 0;
+    }
+
+    #skills ul {
+        padding: 0;
+    }
+}
