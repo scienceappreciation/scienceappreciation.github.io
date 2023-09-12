@@ -147,21 +147,3 @@ i {
 #website-grid img:hover {
     width: 175%;
 }
-
-.period {
-    padding: 2rem;
-    width: 85%;
-    margin: auto;
-    text-align: center;
-}
-
-.period h2 {
-    font-weight: bold;
-}
-
-.timeline-spacer {
-    height: 2rem;
-    width: 1rem;
-    background-color: #CCC;
-    margin: 1rem auto;
-}

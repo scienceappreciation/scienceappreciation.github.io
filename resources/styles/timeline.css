@@ -1,0 +1,46 @@
+.period {
+    padding: 2rem;
+    width: 33%;
+    color: lightgray;
+    margin: auto;
+    text-align: center;
+}
+
+.period h2 {
+    font-weight: bold;
+}
+
+.period p {
+    display: none;
+}
+
+.period button {
+    display: none;
+}
+
+.active {
+    padding: 2rem;
+    width: 85%;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.active p {
+    display: inherit;
+}
+
+.active button {
+    display: inline-block;
+}
+
+.timeline-spacer {
+    height: 2rem;
+    width: 1rem;
+    background-color: #CCC;
+    margin: 1rem auto;
+}
+
+main section {
+    overflow: scroll;
+}
