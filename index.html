@@ -10,14 +10,15 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <script src="js/core.js"></script>
     <script src="js/miniapps/apps.js" defer></script>
   </head>
   <body>
     <main>
       <a href="#info" class="tab-only btn thick color-primary">Skip Navigation</a>
       <nav class="appbar color-primary">
-        <ul>
-          <li role="presentation">
+        <ul id="main-nav">
+          <li>
             <a href="#info">Cole Hale</a>
           </li>
           <li>
@@ -31,6 +32,13 @@
           </li>
           <li>
             <a href="#miniapps">Mini Apps</a>
+          </li>
+        </ul>
+        <ul>
+          <li id="mobile-hamburger">
+            <button id="mobile-hamburger-btn">
+              <img src="./icons/ui/hamburger_menu.svg">
+            </button>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/cole-hale">
@@ -57,14 +65,14 @@
       </section>
       <section id="portfolio">
         <h2>Portfolio</h2>
-        <article class="container">
-          <img src="images/example_preview.png" class="website-preview">
+        <div class="container">
+          <img src="images/example_preview.png" class="website-preview" alt="preview of scienceappreciation.github.io">
           <a class="website-url" href="https://scienceappreciation.github.io" target="_blank">scienceappreciation.github.io</a>
-        </article>
+        </div>
       </section>
       <section id="skills">
         <h2>Skills &amp; Education</h2>
-        <div aria-label="List of skills" class="container">
+        <div class="container">
           <ul>
             <li class="straw scheme-html5">HTML 5</li>
             <li class="straw scheme-css">CSS</li>

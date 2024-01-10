@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 main {
     margin: auto;
+    overflow-x: hidden;
 }
 
 @media only screen and (min-width: 1196px) {
@@ -69,7 +70,7 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.appbar ul {
+.appbar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,5 +193,51 @@ footer {
     font-size: 0.8rem;
     align-items: center;
     justify-content: center;
+}
+
+#mobile-hamburger {
+    display: none;
+}
+
+#mobile-hamburger button {
+    background-color: transparent;
+    width: 2rem;
+    height: 2rem;
+}
+
+#mobile-hamburger button img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 918px) {
+    .appbar {
+        display: block;
+    }
+
+    .appbar #main-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 2rem;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: left 0.5s ease;
+        background-color: black;
+        opacity: 0.98;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .appbar #main-nav li {
+        display: block;
+        font-size: 2rem;
+    }
+
+    #mobile-hamburger {
+        display: inline-block;
+    }
 }
 
