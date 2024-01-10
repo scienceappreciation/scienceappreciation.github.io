@@ -1,0 +1,29 @@
+a {
+    color: inherit;
+}
+
+body {
+    background-color: gray;
+}
+
+main {
+    background-color: white;
+}
+
+.color-primary {
+    color: white;
+    background-color: black;
+}
+
+.color-secondary {
+    color: black;
+    background-color: white;
+}
+
+.color-nobg {
+    background-color: transparent;
+}
+
+section:nth-child(odd) {
+    background-color: #F2F2F2;
+}
