@@ -1,5 +1,5 @@
 a {
-    color: inherit;
+    color: blueviolet;
 }
 
 body {
@@ -26,4 +26,58 @@ main {
 
 section:nth-child(odd) {
     background-color: #F2F2F2;
+}
+
+.scheme-html5 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E34F26;
+    color: white;
+}
+
+.scheme-css {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #264DE4;
+    color: white;
+}
+
+.scheme-react {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    color: #00D8FF;
+}
+
+.scheme-js {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7DF1E;
+    color: black;
+}
+
+.scheme-github {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.scheme-node {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8CC84B;
+    color: black;
+}
+
+.scheme-express {
+    font-family: monospace;
+    background-color: white;
+    color: black;
+}
+
+.scheme-sql {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5993CD;
+    color: white;
+}
+
+.scheme-plain {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+    color: black;
 }
