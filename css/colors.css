@@ -20,6 +20,10 @@ main {
     background-color: white;
 }
 
+.color-muted {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .color-nobg {
     background-color: transparent;
 }
