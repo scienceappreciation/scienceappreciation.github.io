@@ -1,113 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About Cole</title>
+    <title>Cole Hale - Software Engineer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- load MUI -->
-    <link href="./mui/css/mui.min.css" rel="stylesheet" type="text/css" />
-    <!-- Main CSS -->
-    <link href="./resources/styles/main.css" rel="stylesheet" type="text/css" />
-    <link href="./resources/styles/home.css" rel="stylesheet" type="text/css" />
-
-    <script src="./mui/js/mui.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="author" content="Cole Hale">
+    <meta name="description" content="A digital resume encompassing Cole Hale's skills, accomplishments and portfolio projects in the field of Software Engineering.">
+    <meta name="keywords" content="portfolio,resume,swe,software engineering,software,webdev,web development,web developer">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <script src="js/core.js"></script>
+    <script src="js/miniapps/apps.js" defer></script>
   </head>
   <body>
-    <header>
-      <!-- Main Navigation -->
-      <nav class="mui-panel">
-        <menu class="links">
-          <li class="current"><a href="./index.html">Home</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./timeline.html">Timeline</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </menu>
-        <menu class="icons">
-          <li>
-            <a href="https://linkedin.com/in/cole-hale">
-              <img src="./resources/images/linkedin-svgrepo-com.svg" alt="LinkedIn" class="icon-small">
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/scienceappreciation/scienceappreciation.github.io">
-              <img src="./resources/images/github-142-svgrepo-com.svg" alt="GitHub" class="icon-small">
-            </a>
-          </li>
-        </menu>
-      </nav>
-      <!-- Page Title -->
-      <div role="presentation" class="mui-container">
-        <h1>About Cole</h1>
-      </div>
-    </header>
-
     <main>
-      <section id="summary" class="mui-container">
-        <h2>Software Engineering</h2>
-        <p>Originally, I got into software because I was interested in how games were created. My interest slowly expanded into what it is today which involves general software. For the vast majority of my journey I have taught myself with scraps of information I could find on the web such as YouTube tutorials, free courses, and free software that contains in-software guides like the Unity Game Engine. However, I am proud to say I sought formal instruction starting with a free audit of <a href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science" target="_blank">Harvard's CS50 course</a> and now <a href="https://www.codecademy.com" target="_blank">Codecademy</a>'s paid certification plan for Full Stack Web Development.</p>
-      </section>
-
-      <section id="projects" class="mui-container">
-        <h2>Projects</h2>
-        <p>You can freely see any personal web projects I have done on my <a href="https://github.com/scienceappreciation/" target="_blank">Github.</a></p>
-        <a href="./portfolio.html" class="mui-btn mui-btn--primary">My Portfolio</a>
-      </section>
-
-      <section id="skills" class="mui-container">
-        <h2>Skills</h2>
-        <p>Here is a non-exhaustive list of the aspects of Software Engineering I am familiar with.</p>
-        <ul role="presentation">
-          <li><a href="./timeline.html" class="mui-btn mui-btn--primary">View Timeline</a></li>
-          <li><a href="./contact.html" class="mui-btn mui-btn--primary">Contact to Assess</a></li>
+      <a href="#info" class="tab-only btn thick color-primary">Skip Navigation</a>
+      <nav class="appbar color-primary">
+        <ul id="main-nav">
+          <li>
+            <a href="#info">Cole Hale</a>
+          </li>
+          <li>
+            <a href="#summary">Summary</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#skills">Skills & Education</a>
+          </li>
+          <li>
+            <a href="#miniapps">Mini Apps</a>
+          </li>
         </ul>
-
-        <!-- Skill Grid-->
-        <div class="skill-grid">
-          <div role="presentation" class="skill-container">
-            <div class="container-heading">
-              <img src="./resources/images/checkmark-circle-svgrepo-com.svg" alt="checkmark" class="icon-small">
-              <span role="presentation">Certified</span>
-              <a href="https://www.codecademy.com/profiles/scienceappreciation/certificates/ffd0f42cce1a44e9a0108b365047a0a6" class="codecademy mui-btn mui-btn--small">View Certificate</a>
-            </div>
-            <h3>Web Frontend</h3>
-            <p>HTML5, CSS, React, Redux</p>
-          </div>
-
-          <div role="presentation" class="skill-container">
-            <div class="container-heading">
-              <img src="./resources/images/checkmark-circle-svgrepo-com.svg" alt="checkmark" class="icon-small">
-              <span role="presentation">Certified</span>
-              <a href="https://www.codecademy.com/profiles/scienceappreciation/certificates/ffd0f42cce1a44e9a0108b365047a0a6" class="codecademy mui-btn mui-btn--small">View Certificate</a>
-            </div>
-            <h3>Web Backend</h3>
-            <p>Node.JS, Express, PostgreSQL, Web Security</p>
-          </div>
-  
-          <div role="presentation" class="skill-container"> 
-            <div class="container-heading">
-              <img src="./resources/images/checkmark-svgrepo-com.svg" alt="checkmark" class="icon-small">
-              <span role="presentation">Familiar</span>
-            </div>
-            <h3>Game Programming</h3>
-            <p>LÖVE, RPG Maker VXA/MV, Godot</p>
-          </div>
-  
-          <div role="presentation" class="skill-container">
-            <div class="container-heading">
-              <img src="./resources/images/checkmark-svgrepo-com.svg" alt="checkmark" class="icon-small">
-              <span role="presentation">Familiar</span>
-            </div>
-            <h3>Software Programming</h3>
-            <p>C/C++, Java, Git</p>
-          </div>
-        </div>
-      </div>
-
-        
+        <ul>
+          <li id="mobile-hamburger">
+            <button id="mobile-hamburger-btn">
+              <img src="./icons/ui/hamburger_menu.svg">
+            </button>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/cole-hale">
+              <img src="icons/logos/linkedin_logo.svg" width="32" alt="LinkedIn">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/scienceappreciation">
+              <img src="icons/logos/github_logo.svg" width="32" alt="GitHub">
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section id="info">
+        <h1>Cole Hale</h1>
+        <span id="subtitle">Software Engineer</span>
+        <span id="contact">colehale059@gmail.com</span>
       </section>
+      <section id="summary">
+        <h2>Summary</h2>
+        <p>
+          Originally, I got into software because I was interested in how games were created. My interest slowly expanded into what it is today which involves general software. For the vast majority of my journey I have taught myself with scraps of information I could find on the web such as YouTube tutorials, free courses, and free software that contains in-software guides like the Unity Game Engine. However, I am proud to say I sought formal instruction starting with a free audit of <a href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science" target="_blank">Harvard's CS50 course</a> and now <a href="https://www.codecademy.com" target="_blank">Codecademy</a>'s paid certification plan for Full Stack Web Development.
+        </p>
+      </section>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="container">
+          <img src="images/example_preview.png" class="website-preview" alt="preview of scienceappreciation.github.io">
+          <a class="website-url" href="https://scienceappreciation.github.io" target="_blank">scienceappreciation.github.io</a>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills &amp; Education</h2>
+        <div class="container">
+          <ul>
+            <li class="straw scheme-html5">HTML 5</li>
+            <li class="straw scheme-css">CSS</li>
+            <li class="straw scheme-react">React + Redux</li>
+            <li class="straw scheme-js">JavaScript</li>
+            <li class="straw scheme-github">Git + GitHub</li>
+            <li class="straw scheme-node">Node.js</li>
+            <li class="straw scheme-express">Express.js</li>
+            <li class="straw scheme-sql">SQL</li>
+            <li class="straw scheme-plain">Web Security</li>
+          </ul>
+          <a class="straw btn color-primary" target="_blank" href="https://www.codecademy.com/profiles/scienceappreciation/certificates/ffd0f42cce1a44e9a0108b365047a0a6">View Certificate</a>
+        </div>
+      </section>
+      <section id="miniapps">
+        <h2>Mini Applications</h2>
+        <noscript>
+          You require JavaScript to view and run Mini Applications.
+        </noscript>
+      </section>
+          <!-- Legal & Copyright -->
+      <footer class="color-primary">
+        <p>2023 &copy; Cole Hale, all rights reserved.</p>
+      </footer>
     </main>
-
-    <footer>
-      <p>Copyright &copy; 2023 Cole Hale. All rights reserved.    <a href="./index.html">Back to Top</a></p>
-    </footer>
   </body>
 </html>
