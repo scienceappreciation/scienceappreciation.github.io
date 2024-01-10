@@ -163,6 +163,29 @@ section p {
     font-weight: bold;
 }
 
+.website-preview {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.website-url {
+    display: block;
+    font-size: 1rem;
+    font-family: monospace;
+    padding: 1rem;
+}
+
+.app-window {
+    border: 1px solid lightgray;
+}
+
+.app-description {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 footer {
     display: flex;
     padding: 2rem;
