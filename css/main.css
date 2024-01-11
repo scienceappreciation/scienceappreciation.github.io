@@ -79,6 +79,10 @@ a:hover {
     text-transform: uppercase;
 }
 
+.appbar ul {
+    list-style-type: none;
+}
+
 .appbar ul li {
     display: inline-block;
     padding-right: 1rem;
@@ -201,8 +205,9 @@ footer {
 
 #mobile-hamburger button {
     background-color: transparent;
-    width: 2rem;
-    height: 2rem;
+    border: none;
+    width: auto;
+    height: 32px;
 }
 
 #mobile-hamburger button img {
