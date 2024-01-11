@@ -206,7 +206,7 @@ footer {
 #mobile-hamburger button {
     background-color: transparent;
     border: none;
-    width: auto;
+    width: 32px;
     height: 32px;
 }
 
