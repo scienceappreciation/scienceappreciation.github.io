@@ -39,13 +39,6 @@ main {
     overflow-x: hidden;
 }
 
-@media only screen and (min-width: 1196px) {
-    main {
-        margin: auto;
-        width: 66vw;
-    }
-}
-
 a {
     text-decoration: none;
 }
@@ -70,6 +63,11 @@ a:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+.appbar-spanner {
+    display: block;
+    height: 8vh;
+}
+
 .appbar {
     display: flex;
     align-items: center;
@@ -77,6 +75,9 @@ a:hover {
     list-style-type: none;
     font-weight: bold;
     text-transform: uppercase;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .appbar ul {
@@ -95,6 +96,19 @@ a:hover {
 .appbar ul li a {
     color: inherit;
     text-decoration: none;
+}
+
+@media only screen and (min-width: 1196px) {
+    main {
+        margin: auto;
+        width: 66vw;
+    }
+
+    .appbar {
+        width: 66vw;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
 }
 
 .btn {
