@@ -10,6 +10,16 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <style>
+      #mobile-hamburger button {
+        background: transparent url("./icons/ui/hamburger_menu.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+        border: none;
+        width: 32px;
+        height: 32px;
+    }
+    </style>
     <script src="js/core.js"></script>
     <script src="js/miniapps/apps.js" defer></script>
   </head>
@@ -36,9 +46,7 @@
         </ul>
         <ul>
           <li id="mobile-hamburger">
-            <button id="mobile-hamburger-btn">
-              <img src="icons/ui/hamburger_menu.png">
-            </button>
+            <button id="mobile-hamburger-btn" aria-label="Navigation Menu"></button>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/cole-hale">
